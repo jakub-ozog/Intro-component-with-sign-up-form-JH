@@ -1,0 +1,21 @@
+@use "fonts.scss";
+@use "colors.scss";
+
+.form {
+    font-family: fonts.$PoppinsFont;
+    font-size: fonts.$BodyFontSize;
+    color: colors.$Black;
+
+    .form-item {
+        display: flex;
+        flex-direction: column; 
+        
+       &.form-label {
+           padding: 2em;
+       }
+        
+    }
+
+   
+}
+
