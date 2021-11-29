@@ -2,9 +2,6 @@
 @use "colors.scss";
 
 .form {
-    font-family: fonts.$PoppinsFont;
-    font-size: fonts.$BodyFontSize;
-    color: colors.$Black;
 
     .form-item {
         display: flex;
@@ -20,7 +17,9 @@
            margin:1em;
 
            &::placeholder {
-               margin-left: 2em;
+               font-family: fonts.$PoppinsFont;
+               color: colors.$Black;
+               font-weight: fonts.$Bold;
            }
        }
     }
