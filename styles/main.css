@@ -1,16 +1,3 @@
-.form {
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  color: black;
-}
-.form .form-item {
-  display: flex;
-  flex-direction: column;
-}
-.form .form-item.form-label {
-  padding: 2em;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -42,12 +29,19 @@ body {
 .container .main-section .text-col {
   font-family: "Poppins", sans-serif;
   color: white;
+  width: 50%;
 }
 .container .main-section .text-col .text-col-header h1 {
   font-size: 4rem;
   font-weight: 700;
+  line-height: 1em;
 }
 .container .main-section .text-col .text-col-description h2 {
   font-size: 1rem;
   font-weight: 400;
+}
+.container .main-section .form-col {
+  width: 50%;
+  padding: 2em 2em;
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */

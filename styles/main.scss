@@ -1,6 +1,6 @@
 @use "components/colors.scss";
 @use "components/fonts.scss";
-@use "components/form.scss";
+
 
 * {
     box-sizing: border-box;
@@ -34,11 +34,13 @@ body {
         .text-col {
             font-family: fonts.$PoppinsFont;
             color: colors.$White;
+            width: 50%;
 
             .text-col-header {
                 h1 {
                     font-size: 4rem;
                     font-weight: fonts.$SuperBold;
+                    line-height: 1em;
                 }
             }
 
@@ -48,6 +50,12 @@ body {
                     font-weight: fonts.$Light;
                 }
             }
+        }
+
+        .form-col {
+            width: 50%;
+            padding: 2em 2em;
+            background-color: colors.$White;
         }
     }
 }

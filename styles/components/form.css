@@ -1,0 +1,26 @@
+.form {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+.form .form-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form .form-item .form-input {
+  width: 100%;
+  border: 0.2em solid #e6e6e6;
+  border-radius: 0.5em;
+  padding: 1.5em;
+  margin: 1em;
+}
+.form .form-item .form-input::-moz-placeholder {
+  margin-left: 2em;
+}
+.form .form-item .form-input:-ms-input-placeholder {
+  margin-left: 2em;
+}
+.form .form-item .form-input::placeholder {
+  margin-left: 2em;
+}/*# sourceMappingURL=form.css.map */

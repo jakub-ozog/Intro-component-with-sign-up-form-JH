@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components/form.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -25,9 +26,19 @@
             <div class="form-col">
                 <form class="form" action="" method="post">
                     <div class="form-item">
-                        <label for="givenNames" class="form-label">First Name</label>
-                        <input type="text" class="form-input" name="givenNames" id="givenNames" placeholder="Enter your first name(s)">
-                        <span class="form-error">A sample error message just for now</span>
+                        
+                        <input type="text" class="form-input" name="firstNames" id="firstNames" placeholder="First Name">
+                        <!-- <span class="form-error">A sample error message just for now</span> -->
+
+                        
+                        <input type="text" class="form-input" name="firstNames" id="firstNames" placeholder="Last Name">
+
+                        
+                        <input type="email" class="form-input" name="emailAddress" id="emailAddress" placeholder="Email Address">
+
+                        
+                        <input type="text" class="form-input" name="password" id="password" placeholder="Password">
+
                     </div>
                 </form>
                 <script src="styles/components/form.js"></script>
